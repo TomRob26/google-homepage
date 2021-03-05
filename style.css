@@ -21,8 +21,9 @@ ul {
 .top-rhs-navlist {
     float: right;
     padding: 10px;
+    margin-left: -2px;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(34, 34, 34);
 }
 
@@ -35,8 +36,47 @@ a:hover {
     text-decoration: underline;
 }
 
-.app-button {
-    height: 30px;
-    width: 30px;
-    background-image: url(googleapps.png);
+.google-apps {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: -4px;
+    margin-left: 6px;
+    fill: #5f6368;
+}
+
+.google-apps:hover {
+    background-color:rgb(233, 233, 233) ; 
+    border-radius: 50%;
+    display: inline;
+    background-image: 20px;
+}
+
+.gmail-nav {
+    margin-right: -3px;
+}
+
+.images-nav {
+    margin-right: 3px;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 238px;
+}
+
+.profile-image {
+    width: 32px;
+    border-radius: 50%;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: 2px;
+}
+
+.searchbar {
+    
 }
